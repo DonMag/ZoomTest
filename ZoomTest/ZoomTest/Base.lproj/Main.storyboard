@@ -18,18 +18,16 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LlL-eb-P2d">
                                 <rect key="frame" x="58.51851851851859" y="206.29629629629653" width="256.00000000000006" height="256"/>
                                 <color key="backgroundColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="256" id="21x-D8-zne"/>
-                                    <constraint firstAttribute="width" constant="256" id="xA0-fC-WOI"/>
-                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="RJW-pT-862"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="gL6-x6-cSL"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="LlL-eb-P2d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="r56-PT-jbd"/>
-                            <constraint firstItem="LlL-eb-P2d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zTq-YS-VkP"/>
+                            <constraint firstItem="LlL-eb-P2d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2tX-Pz-g14"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LlL-eb-P2d" secondAttribute="trailing" id="Gg8-Yd-xn2"/>
+                            <constraint firstItem="LlL-eb-P2d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l44-5o-sSr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LlL-eb-P2d" secondAttribute="bottom" id="xHo-Ua-Aa4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
